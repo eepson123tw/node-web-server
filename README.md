@@ -19,7 +19,7 @@ node-web-server 是一款基於 Node.js 的 Web 服務器，專門用於操作�
 ## 目錄結構
 
 ```bash
-/your-app
+/node-web-server
 │
 ├── server.js               # 伺服器入口點
 ├── api
