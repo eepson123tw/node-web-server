@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>關於我們</h1>
+    <p>這是關於頁面。</p>
+    <div id="logContent">
+        <!-- 日誌條目將在這裡動態顯示 -->
+    </div>    
+
+    <form id="logForm">
+      <select id="section">
+          <option value="index">Index</option>
+          <option value="about">About</option>
+          <option value="404">404</option>
+          <!-- 添加其他页面部分的选项 -->
+      </select>
+      <input type="text" id="key" placeholder="Key" required>
+      <input type="text" id="value" placeholder="Value" required>
+      <button type="submit">Update Log</button>
+    </form>
+    <script src="/script.js"></script>
+</body>
+</html>
